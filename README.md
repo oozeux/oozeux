@@ -1,25 +1,31 @@
-# hey, i'm Ooze 👋
+# hey, soy Ooze 👋
 
-I spend most of my free time tinkering with dotfiles and NixOS, basically treating my system like a pet that needs daily maintenance.
+Paso gran parte de mi tiempo libre experimentando con dotfiles y NixOS. Básicamente, trato mi sistema como una mascota que necesita cuidados y mantenimiento todos los días.
 
--  constantly tweaking the rice until it looks right (it never does)
+- Ajustando constantemente mi *rice* hasta conseguir el aspecto que tengo en mente (aunque nunca parece estar del todo terminado).
 
-##  what i'm building around here
+## qué encontrarás por aquí
 
 ### [Nix-Home](https://github.com/shizukutakahashi55-del/nix-home)
-My full NixOS setup, modular and flake-based. Covers the whole system: audio, networking, NVIDIA, users, gaming, terminal, etc. Everything split into its own module so future-me doesn't get lost coming back to it in 3 months.
+
+Mi configuración completa de NixOS, organizada de forma modular y basada en flakes. Incluye prácticamente todo lo relacionado con el sistema: audio, red, NVIDIA, usuarios, gaming, terminal y mucho más.
+
+Cada componente tiene su propio módulo, para que mi yo del futuro no tenga que descifrar todo de nuevo cuando vuelva a revisar el proyecto dentro de tres meses.
 
 ### [dotfiles-nix](https://github.com/shizukutakahashi55-del/dotfiles-nix)
-The user-level dotfiles that sit on top of nixos-config: Hyprland, Waybar, Rofi, Kitty, Starship, and a custom QuickShell-based shell called **OozeShell**. Everything symlinked, with Matugen generating dynamic colors from the wallpaper because yeah, i like it when things match.
 
-##  favorite stack
+Mi colección de dotfiles de usuario, que complementa la configuración de NixOS. Incluye Hyprland, Waybar, Rofi, Kitty, Starship y un entorno de escritorio personalizado basado en QuickShell llamado **OozeShell**.
+
+Todo está organizado mediante enlaces simbólicos y Matugen se encarga de generar una paleta de colores dinámica a partir del wallpaper. Porque, obviamente, me gusta que todo combine.
+
+## Mis favoritos
 
 `NixOS` · `Hyprland` · `Wayland` · `Waybar` · `Rofi` · `Foot` · `Zsh + Starship` · `Matugen` · `QuickShell`
 
-##  heads up
+## antes de empezar
 
-All of this is built for my own machine, so if you clone it you'll probably need to tweak hardware, username, and paths before it boots right. Not exactly plug-and-play, more like "get inspired and adapt."
+Todos estos proyectos están pensados para mi propio equipo. Si decides clonar alguno de los repositorios, probablemente tendrás que adaptar algunos detalles, como revisar compatibilidad con tu hardware, el nombre de usuario y las rutas, para que todo funcione correctamente en tu sistema.
 
 ---
 
-<sub>if something looks broken, i was probably experimenting at 3am</sub>
+<sub>Si algo parece estar roto, probablemente estaba experimentando a las 3 de la madrugada.</sub>
