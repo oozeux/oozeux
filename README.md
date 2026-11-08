@@ -6,13 +6,13 @@ Paso gran parte de mi tiempo libre experimentando con dotfiles y NixOS. Básicam
 
 ## qué encontrarás por aquí
 
-### [Nix-Home](https://github.com/shizukutakahashi55-del/nix-home)
+### [Nix-Home](https://github.com/oozeux/nix-home)
 
 Mi configuración completa de NixOS, organizada de forma modular y basada en flakes. Incluye prácticamente todo lo relacionado con el sistema: audio, red, NVIDIA, usuarios, gaming, terminal y mucho más.
 
 Cada componente tiene su propio módulo, para que mi yo del futuro no tenga que descifrar todo de nuevo cuando vuelva a revisar el proyecto dentro de tres meses.
 
-### [dotfiles-nix](https://github.com/shizukutakahashi55-del/dotfiles-nix)
+### [OozeDots](https://github.com/oozeux/oozedots)
 
 Mi colección de dotfiles de usuario, que complementa la configuración de NixOS. Incluye Hyprland, Waybar, Rofi, Kitty, Starship y un entorno de escritorio personalizado basado en QuickShell llamado **OozeShell**.
 
